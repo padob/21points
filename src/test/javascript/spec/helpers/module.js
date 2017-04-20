@@ -1,4 +1,4 @@
-beforeEach(module('21PointsApp'));
+beforeEach(module('healthApp'));
 /**
  * returns a function whose angular will be replaced
  * with whatever mock was supplied.

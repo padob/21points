@@ -11,7 +11,7 @@
     };
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .component('jhiAlert', jhiAlert);
 
     jhiAlertController.$inject = ['$scope', 'AlertService'];

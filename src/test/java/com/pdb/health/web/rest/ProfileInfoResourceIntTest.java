@@ -1,7 +1,7 @@
 package com.pdb.health.web.rest;
 
 import io.github.jhipster.config.JHipsterProperties;
-import com.pdb.health.Application;
+import com.pdb.health.HealthApp;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -26,7 +26,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see ProfileInfoResource
  **/
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = HealthApp.class)
 public class ProfileInfoResourceIntTest {
 
     @Mock

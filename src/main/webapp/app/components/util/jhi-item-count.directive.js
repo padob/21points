@@ -15,6 +15,6 @@
     };
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .component('jhiItemCount', jhiItemCount);
 })();

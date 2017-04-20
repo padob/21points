@@ -3,7 +3,7 @@
     /* globals SockJS, Stomp */
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .factory('JhiTrackerService', JhiTrackerService);
 
     JhiTrackerService.$inject = ['$rootScope', '$window', '$cookies', '$http', '$q', 'AuthServerProvider'];

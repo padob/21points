@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .factory('DateUtils', DateUtils);
 
     DateUtils.$inject = ['$filter'];

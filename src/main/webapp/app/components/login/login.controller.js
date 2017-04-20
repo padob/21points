@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .controller('LoginController', LoginController);
 
     LoginController.$inject = ['$rootScope', '$state', '$timeout', 'Auth', '$uibModalInstance'];

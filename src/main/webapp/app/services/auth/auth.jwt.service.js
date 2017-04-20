@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .factory('AuthServerProvider', AuthServerProvider);
 
     AuthServerProvider.$inject = ['$http', '$localStorage', '$sessionStorage', '$q'];

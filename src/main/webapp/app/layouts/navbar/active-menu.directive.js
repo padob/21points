@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .directive('activeMenu', activeMenu);
 
     activeMenu.$inject = ['$translate', '$locale', 'tmhDynamicLocale'];

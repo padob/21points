@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('21PointsApp', [
+        .module('healthApp', [
             'ngStorage',
             'tmh.dynamicLocale',
             'pascalprecht.translate',

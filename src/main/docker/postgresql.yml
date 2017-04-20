@@ -1,11 +1,11 @@
 version: '2'
 services:
-    21points-postgresql:
+    health-postgresql:
         image: postgres:9.5.4
         # volumes:
-        #     - ~/volumes/jhipster/21points/postgresql/:/var/lib/postgresql/
+        #     - ~/volumes/jhipster/health/postgresql/:/var/lib/postgresql/
         environment:
-            - POSTGRES_USER=21points
+            - POSTGRES_USER=health
             - POSTGRES_PASSWORD=
         ports:
             - 5432:5432

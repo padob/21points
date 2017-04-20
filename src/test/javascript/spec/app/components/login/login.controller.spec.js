@@ -2,7 +2,7 @@
 
 describe('Controller Tests', function () {
 
-    beforeEach(module('21PointsApp'));
+    beforeEach(module('healthApp'));
 
     describe('LoginController', function () {
         var $scope, authService;

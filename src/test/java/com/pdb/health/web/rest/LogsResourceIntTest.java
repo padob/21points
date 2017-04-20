@@ -1,6 +1,6 @@
 package com.pdb.health.web.rest;
 
-import com.pdb.health.Application;
+import com.pdb.health.HealthApp;
 import com.pdb.health.web.rest.vm.LoggerVM;
 import org.junit.Before;
 import org.junit.Test;
@@ -23,7 +23,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see LogsResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = HealthApp.class)
 public class LogsResourceIntTest {
 
     private MockMvc restLogsMockMvc;

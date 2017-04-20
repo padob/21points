@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .directive('maxbytes', maxbytes);
 
     function maxbytes () {

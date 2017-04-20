@@ -3,7 +3,7 @@
     'use strict';
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .factory('Base64', Base64);
 
     function Base64 () {

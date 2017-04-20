@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .config(stateConfig);
 
     stateConfig.$inject = ['$stateProvider'];

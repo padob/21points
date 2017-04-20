@@ -1,4 +1,4 @@
-// Generated on 2017-04-20 using generator-jhipster 4.0.8
+// Generated on 2017-04-20 using generator-jhipster 4.1.0
 'use strict';
 
 var gulp = require('gulp'),
@@ -88,7 +88,7 @@ gulp.task('html', function () {
     return gulp.src(config.app + 'app/**/*.html')
         .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(templateCache({
-            module: '21PointsApp',
+            module: 'healthApp',
             root: 'app/',
             moduleSystem: 'IIFE'
         }))
@@ -97,7 +97,7 @@ gulp.task('html', function () {
 
 gulp.task('ngconstant:dev', function () {
     return ngConstant({
-        name: '21PointsApp',
+        name: 'healthApp',
         constants: {
             VERSION: util.parseVersion(),
             DEBUG_INFO_ENABLED: true
@@ -111,7 +111,7 @@ gulp.task('ngconstant:dev', function () {
 
 gulp.task('ngconstant:prod', function () {
     return ngConstant({
-        name: '21PointsApp',
+        name: 'healthApp',
         constants: {
             VERSION: util.parseVersion(),
             DEBUG_INFO_ENABLED: false

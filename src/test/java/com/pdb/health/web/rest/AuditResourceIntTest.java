@@ -1,6 +1,6 @@
 package com.pdb.health.web.rest;
 
-import com.pdb.health.Application;
+import com.pdb.health.HealthApp;
 import com.pdb.health.config.audit.AuditEventConverter;
 import com.pdb.health.domain.PersistentAuditEvent;
 import com.pdb.health.repository.PersistenceAuditEventRepository;
@@ -33,7 +33,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AuditResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = HealthApp.class)
 @Transactional
 public class AuditResourceIntTest {
 

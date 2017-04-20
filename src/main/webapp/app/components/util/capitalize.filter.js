@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .filter('capitalize', capitalize);
 
     function capitalize() {

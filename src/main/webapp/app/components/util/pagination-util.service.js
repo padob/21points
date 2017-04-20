@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .factory('PaginationUtil', PaginationUtil);
 
     function PaginationUtil () {

@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('21PointsApp')
+        .module('healthApp')
         .controller('JhiTrackerController', JhiTrackerController);
 
     JhiTrackerController.$inject = ['$cookies', '$http', 'JhiTrackerService'];

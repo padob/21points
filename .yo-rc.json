@@ -1,7 +1,11 @@
 {
   "generator-jhipster": {
-    "jhipsterVersion": "4.0.8",
-    "baseName": "21points",
+    "promptValues": {
+      "packageName": "com.pdb.health",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "4.1.0",
+    "baseName": "health",
     "packageName": "com.pdb.health",
     "packageFolder": "com/pdb/health",
     "serverPort": "8080",
@@ -16,8 +20,8 @@
     "messageBroker": false,
     "serviceDiscoveryType": false,
     "buildTool": "gradle",
-    "enableSocialSignIn": false,
-    "jwtSecretKey": "b736acf71db9d56ae4c7c166d40dafaf49ed243f",
+    "enableSocialSignIn": true,
+    "jwtSecretKey": "9222529c0805bcb07a58c441a4997817acf7ca5e",
     "clientFramework": "angular1",
     "useSass": false,
     "clientPackageManager": "npm",
@@ -28,6 +32,7 @@
       "protractor"
     ],
     "jhiPrefix": "jhi",
+    "otherModules": [],
     "enableTranslation": true,
     "nativeLanguage": "en",
     "languages": [

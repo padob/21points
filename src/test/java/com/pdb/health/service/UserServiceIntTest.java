@@ -1,6 +1,6 @@
 package com.pdb.health.service;
 
-import com.pdb.health.Application;
+import com.pdb.health.HealthApp;
 import com.pdb.health.domain.User;
 import com.pdb.health.config.Constants;
 import com.pdb.health.repository.UserRepository;
@@ -27,7 +27,7 @@ import static org.assertj.core.api.Assertions.*;
  * @see UserService
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = HealthApp.class)
 @Transactional
 public class UserServiceIntTest {
 

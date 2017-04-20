@@ -1,6 +1,6 @@
 package com.pdb.health.web.rest;
 
-import com.pdb.health.Application;
+import com.pdb.health.HealthApp;
 import com.pdb.health.domain.Authority;
 import com.pdb.health.domain.User;
 import com.pdb.health.repository.AuthorityRepository;
@@ -39,7 +39,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AccountResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = HealthApp.class)
 public class AccountResourceIntTest {
 
     @Autowired
